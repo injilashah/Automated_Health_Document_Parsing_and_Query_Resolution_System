@@ -1,1 +1,3 @@
-# MediParse
+# Automated_Health_Document_Parsing_and_Query_Resolution_System
+
+
