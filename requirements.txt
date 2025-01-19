@@ -1,0 +1,9 @@
+gradio
+werkzeug
+pdf2image
+paddleocr
+numpy
+paddlepaddle
+setuptools
+
+pymupdf
