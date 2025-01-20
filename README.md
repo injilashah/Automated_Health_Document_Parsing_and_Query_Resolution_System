@@ -9,7 +9,7 @@ The system is designed to process medical documents that include both textual an
   <img src="demo/demo.png" alt="DEMO" style="width: 1000px; height: 460px; border-radius: 100%;">
 </div>
 
-#Getting Started:
+# Getting Started:
 
 -[Download OLLAMA for Windows](https://ollama.com/download/windows)
 
