@@ -9,11 +9,23 @@ The system is designed to process medical documents that include both textual an
   <img src="demo/demo.png" alt="DEMO" style="width: 1000px; height: 460px; border-radius: 100%;">
 </div>
 
+#Getting Started:
+
+-[Download OLLAMA for Windows](https://ollama.com/download/windows)
+
+-After downloading , follow these steps to initialize and prepare the model:
+-Open the OLLAMA Command Prompt.
+
+-Run the following commands to download the model:
+```bash
+ollama pull llama-3.2
+```
+
 # Running the System:
-To run the system use the following commands:
-'''bash
+To run the system execute  the following commands:
+
+```bash
 python -m pip install -r requirements.txt
-python -m spacy download en_core_web_sm
 streamlit run app.py
 
 
