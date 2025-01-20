@@ -1,7 +1,7 @@
 
 import subprocess
 
-# Function to call Ollama and get structured output
+
 def generate_answer(prompt):
    
 
@@ -14,7 +14,7 @@ def generate_answer(prompt):
             capture_output=True, text=True, shell=True, check=True
         )
         
-        print("Ollama Output:", result.stdout)  # Debugging: print the output from Ollama
+        print("Ollama Output:", result.stdout)  # Debugging: print to see the output from ollama
         result =result.stdout
         return result
     except subprocess.CalledProcessError as e:
