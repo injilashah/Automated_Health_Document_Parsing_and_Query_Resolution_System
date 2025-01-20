@@ -13,15 +13,15 @@ The system is designed to process medical documents that include both textual an
 
 -[Download OLLAMA for Windows](https://ollama.com/download/windows)
 
--After downloading , follow these steps to initialize and prepare the model:
--Open the OLLAMA Command Prompt.
+- After downloading , follow these steps to initialize and prepare the model:
+- Open the OLLAMA Command Prompt.
 
--Run the following commands to download the model:
+- Run the following commands to download the model:
 ```bash
 ollama pull llama-3.2
 ```
 
-# Running the System:
+## Running the System:
 To run the system execute  the following commands:
 
 ```bash
