@@ -9,5 +9,16 @@ The system is designed to process medical documents that include both textual an
   <img src="demo/demo.png" alt="DEMO" style="width: 1000px; height: 460px; border-radius: 100%;">
 </div>
 
+# Running the System:
+To run the system use the following commands:
+'''bash
+python -m pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+streamlit run app.py
+
+
+ 
+
+
 
 
